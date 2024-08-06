@@ -3,10 +3,12 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById('root'))
 
 
-function Mahesh(){
-   return <h1>hello i am mahesh</h1>
+const Mahesh = (props) => {
+    return <h1>Hello I am {props.name} I study in {props.class} </h1>
 }
-
 root.render(
-    <Mahesh/> 
-)
+    <>     <Mahesh name="Mahesh" class="FYMCS" />
+           <Mahesh name="Aditya" class="TYBCS" />
+          <Mahesh name="Sarthak" class="SYBCS" />
+    </>
+) 
