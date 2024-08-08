@@ -2,10 +2,12 @@
   "name": "react01",
   "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start"
-    ,"build":"react-scripts build"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1"
@@ -21,5 +23,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.8"
   }
 }
